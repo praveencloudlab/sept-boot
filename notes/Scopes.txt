@@ -1,0 +1,22 @@
+Scopes
+========
+1.singleton
+2.prototype
+3.application
+4.session
+5.request
+
+===================
+
+
+Life cycle methods
+=====================
+1.constructor :: once on life cycle
+2.post-construct :: once in life cycle
+3.bean : muktiple times on same object
+4.destroy : once in life cycle
+
+
+
+
+
