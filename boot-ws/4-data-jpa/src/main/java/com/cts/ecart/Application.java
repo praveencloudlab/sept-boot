@@ -6,6 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
 
 import com.cts.ecart.entity.Category;
+import com.cts.ecart.repository.BrandRepository;
 import com.cts.ecart.repository.ProductRepository;
 
 @SpringBootApplication
@@ -16,6 +17,7 @@ public class Application {
 		
 		ProductRepository prodRepo = context.getBean(ProductRepository.class);
 	
+		BrandRepository brandRepo = context.getBean(BrandRepository.class);
 		// fetch all categories
 		//prodRepo.findAll().forEach(System.out::println);
 		
@@ -46,7 +48,14 @@ public class Application {
 		
 		// find all categories by category title
 		
-		prodRepo.findByCategoryTitleLike("%o%").forEach(System.out::println);
+		///prodRepo.findByCategoryTitleLike("%o%").forEach(System.out::println);
+		
+		//brandRepo.findAll().forEach(System.out::println);
+		
+		Category catData = prodRepo.findById(45).orElse(null);
+		
+		System.out.println(catData);
+		
 		
 		
 		
