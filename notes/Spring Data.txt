@@ -1,0 +1,39 @@
+Spring Data
+===============
+1.Jdbc Template
+2.ORM : Object relational mapping
+
+
+
+2.ORM : Object relational mapping
+======================================
+1.Data Sources
+2.SessionFactory / EntityManager
+3.Transaction Managers
+
+
+1.Data Sources
+====================
+1.Hikari CP (default)
+2.Tomcat
+3.Dbcp2
+4.Generic
+5.OracleUcp
+
+
+2.EntityManager
+===================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
