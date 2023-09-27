@@ -25,6 +25,22 @@ Spring Data
 ===================================
 
 
+Entity classes
+==================
+
+
+JpaRepositories
+====================
+
+JpaRepository extends Repository (marker interface)
+37 basic database methods
+
+
+
+
+
+
+
 
 
 
